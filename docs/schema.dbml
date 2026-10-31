@@ -1,0 +1,68 @@
+// Star schema for the job postings mart. Paste into https://dbdiagram.io to render.
+// Grain of the fact table: one row per job posting.
+
+Table fct_job_postings {
+  posting_key varchar [pk]
+  posting_id varchar [note: 'natural key from source']
+  job_key varchar [ref: > dim_job.job_key]
+  company_key varchar [ref: > dim_company.company_key]
+  location_key varchar [ref: > dim_location.location_key]
+  source_key varchar [ref: > dim_source.source_key]
+  first_seen_date_key int [ref: > dim_date.date_key]
+  last_seen_date_key int [ref: > dim_date.date_key]
+  salary_min_eur numeric
+  salary_max_eur numeric
+  days_open int
+  Note: 'Grain: one row per job posting'
+}
+
+Table dim_job {
+  job_key varchar [pk]
+  title varchar
+  title_normalized varchar
+  seniority varchar
+  employment_type varchar
+  description text
+}
+
+Table dim_company {
+  company_key varchar [pk]
+  company_name varchar
+  industry varchar
+  website varchar
+}
+
+Table dim_location {
+  location_key varchar [pk]
+  city varchar
+  region varchar
+  country varchar
+  is_remote boolean
+}
+
+Table dim_date {
+  date_key int [pk, note: 'e.g. 20261101']
+  date date
+  day_of_week varchar
+  month int
+  quarter int
+  year int
+  is_weekend boolean
+}
+
+Table dim_source {
+  source_key varchar [pk]
+  source_name varchar
+  base_url varchar
+}
+
+Table dim_skill {
+  skill_key varchar [pk]
+  skill_name varchar
+  skill_category varchar
+}
+
+Table bridge_posting_skill {
+  posting_key varchar [ref: > fct_job_postings.posting_key]
+  skill_key varchar [ref: > dim_skill.skill_key]
+}

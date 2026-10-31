@@ -1,0 +1,1 @@
+"""Job postings ELT pipeline."""

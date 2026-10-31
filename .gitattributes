@@ -1,0 +1,6 @@
+# Store text files with LF endings so scripts and SQL behave the same
+# on Windows and inside Linux containers / CI.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
