@@ -43,3 +43,36 @@ so pipeline code (boto3) is unchanged and will point at real AWS S3 in Project 2
 
 **Why:** Free, runs locally, first-class dbt support, and the data volume (thousands to low millions of rows)
 is well within its comfort zone. Cloud warehouses come in Project 2.
+
+---
+
+## ADR-005: Public JSON APIs + httpx instead of Scrapy
+
+**Decision:** Source data from the Arbeitnow and Himalayas public job APIs, fetched with `httpx`.
+
+**Why:** The project's focus is the platform (storage, warehouse, modelling, orchestration), so sources
+should be stable and legally clean. Both APIs are free, keyless and documented. With JSON APIs there is
+no HTML to crawl, so Scrapy would add complexity without benefit. Two sources with different shapes and
+pagination styles (page number vs cursor) still exercise multi-source integration.
+
+---
+
+## ADR-006: Raw layer grain = one row per job per source per ingest day
+
+**Decision:** `raw.job_postings` is keyed by `(source, source_job_id, ingest_date)` and stores the job
+as untouched JSONB.
+
+**Why:** A daily snapshot of every job keeps history cheaply, so dbt can derive `first_seen` /
+`last_seen`, posting duration and SCD Type 2 changes later. Storing JSONB means a schema change at the
+source never breaks loading; parsing happens in dbt staging.
+
+---
+
+## ADR-007: Idempotency by partition overwrite
+
+**Decision:** Extract deletes and rewrites the whole `source + ingest_date` prefix in object storage;
+load deletes and re-inserts the same partition in Postgres inside one transaction (via `COPY`).
+A `_manifest.json` written last marks a partition as complete; the loader refuses partitions without it.
+
+**Why:** Pipelines get re-run (retries, backfills, bug fixes). Overwriting a well-defined partition makes
+every re-run safe: same input -> same result, no duplicates, no half-loaded state.

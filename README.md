@@ -6,13 +6,13 @@ An end-to-end data engineering project: scrape public job postings, land them in
 load them into a PostgreSQL warehouse, and model them into a tested star schema with dbt —
 orchestrated by Airflow and fully containerised.
 
-> **Status:** 🚧 In progress — Phase 1 (local platform) complete. See [Roadmap](#roadmap).
+> **Status:** 🚧 In progress — Phase 2 (extract & load) complete. See [Roadmap](#roadmap).
 
 ## Architecture
 
 ```mermaid
 flowchart LR
-    A[Job sites] -->|Scrapy| B[(Object storage<br/>raw JSON)]
+    A[Job APIs] -->|extract| B[(Object storage<br/>raw JSON)]
     B -->|Python loader| C[(PostgreSQL<br/>raw schema)]
     C -->|dbt| D[(staging)]
     D -->|dbt| E[(marts<br/>star schema)]
@@ -22,7 +22,7 @@ flowchart LR
 
 | Layer | Tool | Purpose |
 |---|---|---|
-| Ingestion | Scrapy | Collect postings from public sources |
+| Ingestion | Python + httpx | Collect postings from public job APIs |
 | Data lake | SeaweedFS (S3 API) | Immutable raw files, partitioned by date |
 | Warehouse | PostgreSQL 17 | `raw` → `staging` → `marts` schemas |
 | Transformation | dbt | Modelling, tests, documentation, lineage |
@@ -77,6 +77,35 @@ python scripts/check_infra.py
 | S3 API | http://localhost:8333 | from `.env` |
 | Storage browser (Filer UI) | http://localhost:8888 | — |
 
+## Running the pipeline
+
+```bash
+python -m job_pipeline run                       # extract + load all sources for today (UTC)
+python -m job_pipeline extract --source himalayas --max-pages 2
+python -m job_pipeline load --date 2026-10-31    # (re)load a landed day
+```
+
+Raw files land in object storage as Hive-style partitions:
+
+```
+raw-job-postings/source=arbeitnow/ingest_date=2026-10-31/page-0001.json
+                                                         _manifest.json   <- written last = partition complete
+```
+
+Both steps are **idempotent**: re-running a source + day overwrites that partition (in storage and
+in `raw.job_postings`) instead of duplicating it. This is covered by an integration test.
+
+## Data sources
+
+| Source | API | Pagination | Natural key |
+|---|---|---|---|
+| [Arbeitnow](https://www.arbeitnow.com) | `api/job-board-api` | page number (`links.next`) | `slug` |
+| [Himalayas](https://himalayas.app) | `jobs/api` | cursor (`nextCursor`) | `guid` |
+
+Job data © the respective boards. Many thanks to [Arbeitnow](https://www.arbeitnow.com) and
+[Himalayas](https://himalayas.app) for providing free public APIs; every stored job keeps its
+original URL for attribution. Requests are capped per run and paced politely.
+
 ## Development
 
 ```bash
@@ -91,11 +120,13 @@ CI (GitHub Actions) runs linting and unit tests on every push — see [`.github/
 
 ```
 ├── airflow/dags/        # Orchestration (Phase 4)
+├── data/samples/        # Small real API samples, used as test fixtures
 ├── dbt/                 # Transformations & tests (Phase 3)
 ├── docs/                # Schema design + architecture decisions
 ├── scripts/             # Operational scripts (infra checks, one-off loads)
 ├── sql/init/            # Warehouse bootstrap SQL (runs on first start)
-├── src/job_pipeline/    # Python package: config, clients, scrapers, loaders
+├── sql/raw/             # DDL for raw landing tables
+├── src/job_pipeline/    # Python package: sources, extract, load, CLI
 ├── tests/
 └── docker-compose.yml
 ```
@@ -104,7 +135,7 @@ CI (GitHub Actions) runs linting and unit tests on every push — see [`.github/
 
 - [x] **Phase 0** — Data model design (star schema, grain, SCD strategy)
 - [x] **Phase 1** — Local platform: Docker Compose, PostgreSQL, object storage, config, GitHub Actions CI
-- [ ] **Phase 2** — Scraper → raw files in object storage → idempotent load into `raw`
+- [x] **Phase 2** — Extract from APIs → raw files in object storage → idempotent load into `raw`
 - [ ] **Phase 3** — dbt staging & marts with tests
 - [ ] **Phase 4** — Airflow DAG orchestration
 - [ ] **Phase 5** — SCD Type 2 snapshots, dashboard, documentation polish

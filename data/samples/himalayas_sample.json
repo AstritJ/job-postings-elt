@@ -1,0 +1,220 @@
+{
+  "comments": "21/08/2026: Cursor pagination is now available and is the preferred way to page through the feed. Pass the nextCursor value from each response back as ?cursor=. It is faster than offset and will never return the same job twice. The offset parameter is deprecated and will be removed in a future release. 13/03/2026: The API has been updated to include the companySlug field in the response.",
+  "updatedAt": 1793452066,
+  "offset": 0,
+  "limit": 5,
+  "totalCount": 130053,
+  "nextCursor": "MjAyNi0xMC0zMVQxMzowNToyNy4zNDY2MjZafDI0OTQ0NjE",
+  "jobs": [
+    {
+      "title": "Instructional Designer-The Center for Professional Development",
+      "excerpt": "Get Set for Cumberlands! Join our team of student-focused individuals working together in order to encourage intellectual and spiritual growth, leadership and service.",
+      "companyName": "University of the Cumberlands",
+      "companySlug": "university-of-the-cumberlands",
+      "companyLogo": "https://cdn-images.himalayas.app/icsfovjkgdyulu5yl093hl92j8os",
+      "employmentType": "Full Time",
+      "minSalary": null,
+      "maxSalary": null,
+      "salaryPeriod": "annual",
+      "seniority": [
+        "Mid-level"
+      ],
+      "currency": null,
+      "locationRestrictions": [
+        "United States"
+      ],
+      "timezoneRestrictions": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        14
+      ],
+      "categories": [
+        "Instructional-Designer",
+        "Learning-Designer",
+        "ELearning-Developer",
+        "Instructional-Design-Specialist",
+        "Learning-Experience-Designer"
+      ],
+      "parentCategories": [
+        "Education"
+      ],
+      "description": "<h3>Get Set for Cumberlands!</h3><p>Join our team of student-focused individuals working together in order to encourage intellectual and spiritual growth, leadership and service.</p><p><b><b>CURRENT STUDENT or EMPLOYEE?</b></b> Please log into Workday and use the Career Tile to find and apply to jobs from our internal career sites.</p><p>The Instructional Designer creates engaging, outcomes-driven learning experiences that equip adult learners with professional and workforce skills. Working in close partnership with subject-matter experts, faculty, and community and organizational partners, the Instructional Designer leads full-cycle course design (analysis, design, development, implementation, and evaluation).</p><h3>Duties and Responsibilities</h3><h3>Learning Experience Design &amp; Development</h3><ul>\n<li>Design and develop asynchronous digital course development, hybrid, and instructor‑led learning experiences using backward‑design, adult‑learning principles, and evidence-based instructional strategies.</li>\n<li>Create and integrate multimedia (video, motion graphics, simulations, interactive assessments) that reinforce key competencies.</li>\n<li>Conduct learner and task analyses to define instructional goals and measurable learning outcomes.</li>\n</ul><h3>Digital Learning Asset Production</h3><ul>\n<li>Plan, storyboard, produce, and edit instructional videos, including screen recordings, narrated demonstrations, animated explainers, and video-based learning resources.</li>\n<li>Create infographics, job aids, motion graphics, animations, and visual effects that clarify concepts and strengthen instructional storytelling.</li>\n<li>Publish and maintain learning assets within the learning management system (LMS), including version control and course updates.</li>\n</ul><h3>Assessment &amp; Evaluation</h3><ul>\n<li>Develop formative and summative assessments aligned to learning objectives, industry certifications, and workforce competencies.</li>\n<li>Conduct quality assurance reviews for content accuracy, instructional alignment, usability, accessibility, technical functionality, consistency, and cross-device performance.</li>\n<li>Analyze learner analytics and feedback to improve course design and evaluate learning impact.</li>\n</ul><h3>Collaboration &amp; Capacity Building</h3><ul>\n<li>Collaborate with subject-matter experts and team members to translate complex content into clear, engaging learning materials, training sessions, and videos.</li>\n<li>Partner with grant teams to craft instructional narratives, logic models, and evidence of learning impact.</li>\n</ul><h3>Continuous Improvement &amp; Research</h3><ul>\n<li>Monitor emerging trends in instructional technology, workforce‑development, and design.</li>\n<li>Evaluate and apply emerging tools and technologies, to improve instructional quality, production efficiency, and learner engagement.</li>\n<li>\n<b>Knowledge, Skills, and Abilities Required</b>Experience<ul><li>Minimum of three years of experience in instructional design, digital content development, or a related field.</li></ul>\n</li>\n<li>Technical Skills<ul>\n<li>Proficiency with AI content development tools, graphic design tools such as Adobe Creative Cloud or Canva, and video editing and motion graphics tools such as Adobe Premiere Pro, After Effects, Camtasia, or comparable software.</li>\n<li>Experience using learning‑management systems such as Canvas,</li>\n<li>Experience analyzing learning analytics dashboards.</li>\n<li>Knowledge of WCAG 2.2 accessibility standards, including captions and transcripts for instructional media.</li>\n</ul>\n</li>\n<li>Core Competencies<ul>\n<li>Exceptional written, visual, and interpersonal communication skills.</li>\n<li>Strong organization and project‑management skills, with the ability to balance competing deadlines, meet deadlines, and incorporate feedback.</li>\n<li>Attention to detail, sound visual judgment, and ability to produce professional-quality learning assets.</li>\n</ul>\n</li>\n<li>\n<b>Additional Application Materials</b>·        Cover letter·        Portfolio with examples of instructional design/eLearning projects, independently produced instructional, image or motion graphics.<b><br>Compensation: Salary</b><b>Benefits: Yes</b>Job Location: The Center for Professional Development (on-site, hybrid, or remote negotiable)</li>\n</ul><p>Cumberlands is different by design. Our employees exemplify our motto in the pursuit of a </p><h3>“life-more-abundant.” </h3><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+      "pubDate": 1793452066,
+      "expiryDate": 1798636065,
+      "applicationLink": "https://himalayas.app/companies/university-of-the-cumberlands/jobs/instructional-designer-the-center-for-professional-development?utm_source=api",
+      "guid": "https://himalayas.app/companies/university-of-the-cumberlands/jobs/instructional-designer-the-center-for-professional-development"
+    },
+    {
+      "title": "ML Security Engineer",
+      "excerpt": "ML Security Engineer- Remote Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States.",
+      "companyName": "Bright Vision Technologies",
+      "companySlug": "bright-vision-technologies",
+      "companyLogo": "https://cdn-images.himalayas.app/tillsehd3opuq2p5lraeki82dq3v",
+      "employmentType": "Full Time",
+      "minSalary": 100000,
+      "maxSalary": 150000,
+      "salaryPeriod": "annual",
+      "seniority": [
+        "Senior"
+      ],
+      "currency": "USD",
+      "locationRestrictions": [
+        "United States"
+      ],
+      "timezoneRestrictions": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        14
+      ],
+      "categories": [
+        "ML-Security-Engineer",
+        "AI-Security-Engineer",
+        "Security-Engineer",
+        "Cloud-Security-Engineer",
+        "Application-Security-Engineer"
+      ],
+      "parentCategories": [
+        "Developer"
+      ],
+      "description": "<strong>ML Security Engineer- Remote </strong><br><br><a href=\"https://himalayas.app/companies/bright-vision-technologies\">Bright Vision Technologies</a> is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States. <br>This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential. <br><br><strong>Job Title: </strong>ML Security Engineer<br><strong>Location: </strong>100% Remote (U.S.) <br><strong>Position Type: </strong>Full-time, Direct W2 <br><strong>Salary Range:</strong> $100,000–$150,000 Annually <br><strong>Experience Required: </strong>6+ years <br><br><strong>Sponsorship: </strong>U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position. <br><br><strong>Job Summary </strong><br>We are seeking an AI Security Engineer to lead the design and implementation of security controls, threat models, and incident response capabilities specifically tailored to AI and machine learning systems. The role addresses the unique security challenges posed by LLMs, model APIs, training data pipelines, and AI-powered applications, including prompt injection, model abuse, data exfiltration, and supply chain risks. The ideal candidate has strong security engineering fundamentals and a deep understanding of how modern AI systems work in practice, with hands-on experience designing defenses for both AI-powered applications and the AI infrastructure that supports them. <br><br><strong>Key Responsibilities </strong><ul>\n<li>Define and implement security controls specifically targeting LLM and AI-powered application risks. </li>\n<li>Build threat models for AI systems, including prompt injection, jailbreaks, data exfiltration, and abuse patterns. </li>\n<li>Design and deploy guardrails, content filters, and policy enforcement layers around model endpoints. </li>\n<li>Implement runtime detection and response capabilities for adversarial prompts and abusive behavior. </li>\n<li>Secure training and fine-tuning pipelines, including data provenance, integrity, and access controls. </li>\n<li>Design controls for sensitive data handling, retention, and redaction in LLM workflows. </li>\n<li>Lead red-team exercises against AI systems and drive remediation of identified weaknesses. </li>\n<li>Evaluate and harden third-party AI services and open-source AI components used internally. </li>\n<li>Implement identity, authorization, and tenant-isolation patterns for multi-tenant AI services. </li>\n<li>Drive supply chain security for ML artifacts including weights, datasets, and inference dependencies. </li>\n<li>Collaborate with privacy, legal, and compliance teams to ensure AI systems meet regulatory obligations. </li>\n<li>Develop monitoring, logging, and detection strategies tailored to AI workloads. </li>\n<li>Lead incident response for AI-specific security events and drive durable improvements. </li>\n<li>Stay current with adversarial ML, LLM security research, and emerging regulatory developments. </li>\n</ul><strong>Required Qualifications </strong><ul>\n<li>Bachelor’s or Master’s degree in Computer Science, Cybersecurity, or a related discipline. </li>\n<li>Six or more years of security engineering experience, including significant work on AI or ML systems. </li>\n<li>Strong understanding of LLM internals, modern AI architectures, and common failure modes. </li>\n<li>Hands-on experience designing security controls for AI-powered applications. </li>\n<li>Deep knowledge of application security, identity, and cryptography fundamentals. </li>\n<li>Experience with threat modeling and security architecture review processes. </li>\n<li>Familiarity with adversarial ML, prompt injection, and model abuse research. </li>\n<li>Proficiency in Python and at least one systems language. </li>\n<li>Strong understanding of cloud security and modern infrastructure controls. </li>\n<li>Excellent written and verbal communication skills. </li>\n</ul><strong>Preferred Qualifications </strong><ul>\n<li>Publications, talks, or CTF participation in AI security topics. </li>\n<li>Experience with red-teaming LLM-based products. </li>\n<li>Familiarity with privacy-preserving ML techniques such as differential privacy. </li>\n<li>Exposure to regulated industries with strict data handling requirements. </li>\n<li>Open-source contributions to AI security tooling</li>\n</ul><strong>How to Apply </strong><br>Would you like to know more about this opportunity? For immediate consideration, please send your resume to  or contact us at (908) 505-3544. Learn more about <a href=\"https://himalayas.app/companies/bright-vision-technologies\">Bright Vision Technologies</a> at .<br><a href=\"https://himalayas.app/companies/bright-vision-technologies\">Bright Vision Technologies</a> is an Equal Opportunity Employer. <br><p>Equal Employment Opportunity (EEO) Statement</p><p><a href=\"https://himalayas.app/companies/bright-vision-technologies\">Bright Vision Technologies</a> (BV Teck) is committed to equal employment opportunity (EEO) for all employees and applicants without regard to race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, veteran status, or any other protected status as defined by applicable federal, state, or local laws. This commitment extends to all aspects of employment, including recruitment, hiring, training, compensation, promotion, transfer, leaves of absence, termination, layoffs, and recall.</p><p>BV Teck expressly prohibits any form of workplace harassment or discrimination. Any improper interference with employees' ability to perform their job duties may result in disciplinary action up to and including termination of employment.</p><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+      "pubDate": 1793452063,
+      "expiryDate": 1798636062,
+      "applicationLink": "https://himalayas.app/companies/bright-vision-technologies/jobs/ml-security-engineer-8732533110?utm_source=api",
+      "guid": "https://himalayas.app/companies/bright-vision-technologies/jobs/ml-security-engineer-8732533110"
+    },
+    {
+      "title": "Account Manager",
+      "excerpt": "Position OverviewFujifilm’s Data Storage Solutions division provides magnetic storage tape to customers around the world, supporting mission critical data retention needs across a wide range of industries.",
+      "companyName": "Fujifilm",
+      "companySlug": "fujifilm",
+      "companyLogo": "https://cdn-images.himalayas.app/x63p8t28s8swsf6qykskx7wyuyng",
+      "employmentType": "Other",
+      "minSalary": 120000,
+      "maxSalary": 120000,
+      "salaryPeriod": "annual",
+      "seniority": [
+        "Senior"
+      ],
+      "currency": "USD",
+      "locationRestrictions": [
+        "United States"
+      ],
+      "timezoneRestrictions": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        14
+      ],
+      "categories": [
+        "Account-Manager",
+        "Sales-Account-Manager",
+        "Enterprise-Account-Manager",
+        "IT-Sales-Manager",
+        "Strategic-Account-Manager"
+      ],
+      "parentCategories": [
+        "Sales",
+        "Customer Service"
+      ],
+      "description": "<h3>Position Overview</h3><p><a href=\"https://himalayas.app/companies/fujifilm\">Fujifilm</a>’s Data Storage Solutions division provides magnetic storage tape to customers around the world, supporting mission critical data retention needs across a wide range of industries. Magnetic tape is recognized as a core component of modern data center infrastructure, valued for its reliability, cost efficiency, and low power consumption in large scale and long-term data archival. </p><p>As AI workloads drive data volumes to grow at an unprecedented pace, demand for <a href=\"https://himalayas.app/companies/fujifilm\">Fujifilm</a>’s magnetic tape is expanding rapidly. To further accelerate this growth and strengthen our engagement with key hyperscale customers, we are adding an experienced Account Manager to our team. The successful candidate will be responsible for maximizing revenue, building and maintaining long term relationships, and serving as a primary point of contact for purchasing, supply chain, engineering, and related functions within major hyperscale accounts.</p><p><strong>This position is remote and based on the West Coast.</strong></p><h3>Company Overview</h3>\"<p>At FUJIFILM North America Corporation, we are many things to both consumers and business customers. We’re looking for passionate, mission-driven people to help us continue to innovate. </p><p>With five operating divisions, there’s a lot of opportunity to find your niche and make an impact. Perhaps you’ll click with our Imaging Division that provides one-time-use cameras, digital printing equipment, and instax™. Maybe you’ll get charged up about our Electronic Imaging Division that markets digital cameras, lenses, and accessories for content creators. Or, you might have your eye on our Optical Devices Division, which provides optical lenses for the broadcast, cinematography, videography, and industrial markets. You could be drawn to our Business Innovation Division—they develop office and commercial print solutions and enable digital transformation. And if you’re interested in tape, check out our Industrial Products Division—they develop data storage solutions.</p><p>We offer a collegial culture and a flexible work environment. Our headquarters is in Valhalla, New York, a quaint town just one hour north of New York City.</p><p><a href=\"https://himalayas.app/companies/fujifilm\">Fujifilm</a> is globally headquartered in Tokyo with over 70,000 employees across four key business segments of healthcare, electronics, business innovation, and imaging. We are guided and united by our Group Purpose of “giving our world more smiles.” Visit: </p>\"<h3>Job Description</h3><h3>Responsibilities</h3><ul>\n<li>Manage and deepen relationships with existing hyperscale customers, ensuring a high level of customer satisfaction and trust.</li>\n<li>Identify and pursue new business opportunities within key accounts, leading end‑to‑end proposal and leveraging the growing demand for tape‑based storage.</li>\n<li>Develop and implement account strategies to achieve revenue targets and increase FUJIFILM’s share of business within each account.</li>\n<li>Engage with multiple stakeholders at customer organizations (e.g., purchasing, engineering, SCM) and maintain strong relationships at various organizational levels.</li>\n<li>Strengthen relationships with system integration partners and establish a seamless co-operation for hyperscale customers</li>\n<li>Collaborate closely with internal technical, supply chain, and operations support teams, as well as Tokyo headquarters, to align sales activities and to ensure effective coordination between customer requests and internal operations</li>\n<li>Prepare and maintain accurate sales forecasts and provide input to internal stakeholders to support production scheduling and inventory planning.</li>\n<li>Review and negotiate contracts, commercial terms, and conditions in cooperation with internal stakeholders, including legal, finance, and operations.</li>\n<li>Monitor market trends in storage, data centers, and hyperscale ecosystems, and provide structured feedback to internal teams to support product and business planning.</li>\n</ul><h3>Required Skills/Education</h3><ul>\n<li>Minimum of 10 years of account management experience, preferably in the IT industry.</li>\n<li>Demonstrated experience in managing large‑scale, strategic enterprise customers.</li>\n<li>Experience in selling IT‑related products (software and/or hardware).</li>\n<li>Strong relationship‑building, negotiation, and stakeholder management capabilities.</li>\n<li>Ability to work independently in a dynamic environment and to collaborate effectively with cross‑functional and cross‑cultural teams. </li>\n</ul><h3>Desired Skills</h3><ul>\n<li>Knowledge of storage, cloud, or data center industries.</li>\n<li>Direct sales or account management experience with hyperscale customers (e.g., AWS, Microsoft Azure, Google Cloud Platform, or other large‑scale cloud service providers).</li>\n<li>Experience in selling storage hardware such as SSDs and HDDs, and/or other data‑center‑grade storage systems.</li>\n<li>Experience working in a global organization and coordinating with overseas headquarters (e.g., Tokyo).</li>\n<li>Willingness to travel to customer sites approximately once per month within North America.</li>\n<li>Occasional international travel to Japan to accompany key customers and to coordinate with Tokyo headquarters</li>\n</ul><h3>Salary and Benefits</h3><ul>\n<li>Salary: $120,000 plus bonus depending on experience.</li>\n<li>Medical, Dental, Vision</li>\n<li>Life Insurance</li>\n<li>401k</li>\n<li>Paid Time Off</li>\n</ul><h3> Remote</h3><h3>EEO Information</h3><p><a href=\"https://himalayas.app/companies/fujifilm\">Fujifilm</a> is committed to providing equal opportunities in hiring, promotion and advancement, compensation, benefits, and training regardless of nationality, age, gender, sexual orientation or gender identity, race, ethnicity, religion, political creed, ideology, national, or social origin, disability, veteran status, etc.</p><h3>ADA Information</h3><p>If you require reasonable accommodation in completing this application, interviewing, completing any pre-employment testing, or otherwise participating in the employee selection process, please direct your inquiries to our HR Department ().</p><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+      "pubDate": 1793452059,
+      "expiryDate": 1798636058,
+      "applicationLink": "https://himalayas.app/companies/fujifilm/jobs/account-manager-603023195?utm_source=api",
+      "guid": "https://himalayas.app/companies/fujifilm/jobs/account-manager-603023195"
+    },
+    {
+      "title": "Proposal Manager",
+      "excerpt": "Who will you be working with? The Sales and Proposal Team serves a critical role in developing new original equipment (OE) business across Wabtec’s Transit business.",
+      "companyName": "Wabtec",
+      "companySlug": "wabtec",
+      "companyLogo": "https://cdn-images.himalayas.app/60qdff4mba9qz3fw7fmjesvu3vro",
+      "employmentType": "Full Time",
+      "minSalary": 95800,
+      "maxSalary": 127000,
+      "salaryPeriod": "annual",
+      "seniority": [
+        "Senior"
+      ],
+      "currency": "USD",
+      "locationRestrictions": [
+        "United States"
+      ],
+      "timezoneRestrictions": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        14
+      ],
+      "categories": [
+        "Proposal-Manager",
+        "Proposal-Specialist",
+        "Bid-Manager",
+        "Business-Development-Manager",
+        "Sales-Operations-Manager"
+      ],
+      "parentCategories": [
+        "Sales"
+      ],
+      "description": "<h3>Who will you be working with?</h3><p>The Sales and Proposal Team serves a critical role in developing new original equipment (OE) business across <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a>’s Transit business. This team supports major transit customers throughout North America, including agencies such as Amtrak, Chicago Transit Authority, Los Angeles County Metropolitan Transportation Authority, and New York City Transit. In this highly visible role, you will collaborate daily with cross-functional teams including Finance, Legal, Engineering, Manufacturing, Procurement, and Project Management, while also partnering with <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a> sister divisions and customer stakeholders. The team is instrumental in securing multi-million-dollar contracts and helping shape the future direction of <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a>’s Brake, Coupler, Power Collection, Door, and HVAC product portfolios.</p><h3>How will you make a difference?</h3><p>As a member of the <strong>Transit OE Sales and Business Development</strong> team, you will be responsible for leading and managing the proposal development process from opportunity identification through contract award and project launch. Reporting to the Director of Transit OE Sales and Business Development, this role serves as the primary commercial point of contact for customers during the bid process and ensures proposals are developed accurately, competitively, and on schedule. You will coordinate cross-functional teams to develop technical and commercial solutions, conduct financial and risk analyses, negotiate contract terms, and present bid recommendations to senior leadership. This position plays a key role in driving business growth and securing strategic transit opportunities that contribute to <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a>’s long-term success.</p><h3>What do we want to know about you?</h3><p>We are looking for a highly organized and customer-focused professional with experience managing complex proposal and sales processes. The ideal candidate will possess strong commercial acumen, project management skills, and the ability to work effectively across multiple functions and stakeholders.</p><ul>\n<li>Bachelor’s degree required; technical degree preferred.</li>\n<li>Minimum of 5 years of relevant professional experience.</li>\n<li>Experience in sales, marketing, proposal management, or business development.</li>\n<li>Rail industry experience preferred.</li>\n<li>Strong financial, analytical, and contract review capabilities.</li>\n<li>Excellent communication, negotiation, and organizational skills.</li>\n<li>Ability to work effectively with cross-functional teams and senior leadership.</li>\n</ul><h3>What will your typical day look like?</h3><ul>\n<li>Lead the preparation, coordination, and submission of commercial proposals to customers.</li>\n<li>Ensure engineering teams provide technical proposals that meet bid requirements and customer specifications.</li>\n<li>Serve as the primary commercial and technical point of contact for customers throughout the bid process.</li>\n<li>Coordinate proposal activities across multiple <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a> product lines and business units.</li>\n<li>Review, negotiate, and support the execution of customer contract terms and conditions.</li>\n<li>Conduct financial analysis, risk assessments, and develop winning proposal strategies.</li>\n<li>Prepare Tender Review packages and present recommendations for senior management approval.</li>\n<li>Manage proposal documentation and ensure a seamless handoff to project management following contract award.</li>\n<li>Ensure proposal activities comply with ISO/IRIS standards and internal processes.</li>\n<li>Perform market analysis, monitor industry trends, and develop strategies to secure future business opportunities.</li>\n<li>Track, organize, and analyze competitive sales and marketing intelligence.</li>\n</ul><h3>What about the physical demands of the job?</h3><ul>\n<li>Prolonged periods of sitting and working on a computer.</li>\n<li>Frequent verbal and written communication with customers, leadership, and internal teams.</li>\n<li>Ability to review detailed technical and commercial documentation.</li>\n<li>Occasional travel to customer sites, <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a> locations, or industry events as required.</li>\n</ul><p>You may also be asked to perform other duties outside of your function or trade, for which adequate training will be provided if necessary.</p><p><strong>While this position is remote, it may include occasional work at a <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a> office/site or attendance at offsites, as agreed to with your manager.</strong></p><p><strong>Relocation assistance may be provided if eligibility requirements are met.</strong></p><p><strong><a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a> will only employ those who are legally authorized to work in the U.S. for this opening. Any offer of employment is conditioned upon the successful completion of a drug screen (as applicable) and fitness for duty test (as applicable).</strong></p><p>Our job titles may span more than one career level. The salary rate for this role is currently $95800-127000. The actual salary offered to a candidate may be influenced by a variety of factors, such as: training, transferable skills, work experience, education, business needs, market demands and work location. The base pay range is subject to change and may be modified in the future. More information on offered benefits, which include health, welfare, and retirement, are available at mywabtecbenefits.com. Other benefit offerings for this role may include annual bonus, if eligible.</p><p><strong>What could you accomplish in a place that puts People First?</strong></p><p>At <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a>, it’s not just about a job - it’s about the impact you make. When our people come together, we’re Expanding the Possible by continuously improving what we do and how we do it - for our clients and each other.</p><p>If you’re ready to revolutionize how the world moves for future generations, <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a> is the place for you.</p><h3>Who are we?</h3><p><a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a> is a leading global provider of equipment, systems, digital solutions, and value-added services for the freight and transit rail sectors. Drawing on more than 150 years of experience, we are leading the way in safety, efficiency, reliability, innovation, and productivity. Whether it’s freight, transit, ports, logistics, mining, industrial, or marine, our expertise, technologies, and people together – are accelerating the future of transportation. With roots that date back to George Westinghouse, Thomas Edison, and Louis Faiveley, <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a> has always built technologies and implemented solutions for a variety of sectors that are critical to meeting the needs of customers and governments alike.</p><p>Our global team of about 30,000 employees worldwide delivers performance that moves the world forward. We’re lifelong learners, obsessed with better. Learn more at www.<a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a>Corp.com.</p><h3>Culture powers us and the possibilities.</h3><p>We believe the best ideas come from a mix of experiences and backgrounds. At <a href=\"https://himalayas.app/companies/wabtec\">Wabtec</a>, we strive every day to create a place where everyone belongs. We’re building a culture where leadership, inclusion and your unique perspective fuel progress.</p><p>We’re proud to be an Equal Opportunity Employer. We welcome talent of all backgrounds, experiences, and identities, including race, gender, age, disability, veteran status and more.</p><p>Need accommodation? Just let us know - we’ve got you.</p><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+      "pubDate": 1793452043,
+      "expiryDate": 1798636043,
+      "applicationLink": "https://himalayas.app/companies/wabtec/jobs/proposal-manager?utm_source=api",
+      "guid": "https://himalayas.app/companies/wabtec/jobs/proposal-manager"
+    },
+    {
+      "title": "ServiceNow Technical Architect",
+      "excerpt": "Bright Vision Technologies is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States.",
+      "companyName": "Bright Vision Technologies",
+      "companySlug": "bright-vision-technologies",
+      "companyLogo": "https://cdn-images.himalayas.app/tillsehd3opuq2p5lraeki82dq3v",
+      "employmentType": "Full Time",
+      "minSalary": 165000,
+      "maxSalary": 185000,
+      "salaryPeriod": "annual",
+      "seniority": [
+        "Senior"
+      ],
+      "currency": "USD",
+      "locationRestrictions": [
+        "United States"
+      ],
+      "timezoneRestrictions": [
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        14
+      ],
+      "categories": [
+        "ServiceNow-Architect",
+        "Technical-Architect",
+        "Enterprise-Architect",
+        "Cloud-Solutions-Architect"
+      ],
+      "parentCategories": [
+        "Developer"
+      ],
+      "description": "<a href=\"https://himalayas.app/companies/bright-vision-technologies\">Bright Vision Technologies</a> is a technology consulting and software development company delivering cloud, AI, data, and enterprise solutions across the United States.<br><br>This is a fantastic opportunity to join an established and well-respected organization offering tremendous career growth potential.<br><br><b>Job Title:</b> ServiceNow Technical Architect<br><b>Location:</b> 100% Remote (U.S.)<br><b>Position Type:</b> Full-time, Direct W2<br><b>Salary Range:</b> $165,000–$185,000 Annually<br><b>Experience Required:</b> 6+ years<br><br><b>Sponsorship:</b> U.S. Citizens, Green Card Holders, EAD Holders, and H-1B transfer candidates are encouraged to apply. We are unable to sponsor new H-1B visa petitions for this position.<br><br><b>Job Summary:</b><br>We are seeking a ServiceNow Architect to lead the design, governance, and long-term evolution of our ServiceNow platform across ITSM, ITOM, HRSD, CSM, SecOps, and custom applications. The role combines deep platform mastery with enterprise architecture judgment, driving standards for data, integration, security, and customization that keep the platform scalable, maintainable, and aligned with business priorities. The ideal candidate has architected ServiceNow at enterprise scale, can confidently shape multi-year roadmaps, and brings strong influence across engineering, business, and executive stakeholders.<br><br><b>Required Qualifications</b><ul>\n<li>Bachelor’s or Master’s degree in Computer Science, Information Systems, or a related field.</li>\n<li>Eight or more years of ServiceNow experience, with significant time in architecture or technical leadership roles.</li>\n<li>Deep expertise across multiple ServiceNow modules.</li>\n<li>Strong understanding of the ServiceNow data model, scripting, scoped apps, and platform internals.</li>\n<li>Hands-on experience with IntegrationHub, REST APIs, and complex integration scenarios.</li>\n<li>Experience designing CMDB, discovery, and service mapping implementations.</li>\n<li>Strong understanding of platform security, ACLs, and role design at scale.</li>\n<li>Experience leading major upgrades and release planning.</li>\n<li>Excellent communication and stakeholder management skills.</li>\n<li>ServiceNow CTA, CIS, or CSA certifications.</li>\n</ul><br><b>Preferred Qualifications</b><ul>\n<li>ServiceNow Certified Technical Architect (CTA) credential.</li>\n<li>Experience with Now Assist, GenAI Controller, or AI-driven ServiceNow features.</li>\n<li>Exposure to multi-instance, multi-region ServiceNow deployments.</li>\n<li>Experience integrating ServiceNow with major SaaS platforms (Workday, Salesforce, SAP).</li>\n<li>Familiarity with HAM Pro, SAM Pro, or App Engine Studio.</li>\n</ul><br><b>How to Apply</b><br><br>Would you like to know more about this opportunity? For immediate consideration, please send your resume to  or contact us at (908)676-4399. Learn more about <a href=\"https://himalayas.app/companies/bright-vision-technologies\">Bright Vision Technologies</a> at .<br><br><a href=\"https://himalayas.app/companies/bright-vision-technologies\">Bright Vision Technologies</a> is an Equal Opportunity Employer.<p>Equal Employment Opportunity (EEO) Statement</p><p><a href=\"https://himalayas.app/companies/bright-vision-technologies\">Bright Vision Technologies</a> (BV Teck) is committed to equal employment opportunity (EEO) for all employees and applicants without regard to race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, genetic information, disability, veteran status, or any other protected status as defined by applicable federal, state, or local laws. This commitment extends to all aspects of employment, including recruitment, hiring, training, compensation, promotion, transfer, leaves of absence, termination, layoffs, and recall.</p><p>BV Teck expressly prohibits any form of workplace harassment or discrimination. Any improper interference with employees' ability to perform their job duties may result in disciplinary action up to and including termination of employment.</p><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+      "pubDate": 1793451927,
+      "expiryDate": 1798635926,
+      "applicationLink": "https://himalayas.app/companies/bright-vision-technologies/jobs/servicenow-technical-architect-4358432171?utm_source=api",
+      "guid": "https://himalayas.app/companies/bright-vision-technologies/jobs/servicenow-technical-architect-4358432171"
+    }
+  ]
+}
