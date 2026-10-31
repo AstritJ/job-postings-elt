@@ -1,5 +1,7 @@
 # Job Postings ELT Pipeline
 
+[![CI](https://github.com/AstritJ/job-postings-elt/actions/workflows/ci.yml/badge.svg)](https://github.com/AstritJ/job-postings-elt/actions/workflows/ci.yml)
+
 An end-to-end data engineering project: scrape public job postings, land them in object storage,
 load them into a PostgreSQL warehouse, and model them into a tested star schema with dbt —
 orchestrated by Airflow and fully containerised.
@@ -83,7 +85,7 @@ pytest -m integration                # integration tests (stack must be running)
 ruff check . && ruff format .        # lint + format
 ```
 
-CI (GitLab) runs linting and unit tests on every push — see [`.gitlab-ci.yml`](.gitlab-ci.yml).
+CI (GitHub Actions) runs linting and unit tests on every push — see [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
 
 ## Project structure
 
@@ -101,7 +103,7 @@ CI (GitLab) runs linting and unit tests on every push — see [`.gitlab-ci.yml`]
 ## Roadmap
 
 - [x] **Phase 0** — Data model design (star schema, grain, SCD strategy)
-- [x] **Phase 1** — Local platform: Docker Compose, PostgreSQL, object storage, config, CI
+- [x] **Phase 1** — Local platform: Docker Compose, PostgreSQL, object storage, config, GitHub Actions CI
 - [ ] **Phase 2** — Scraper → raw files in object storage → idempotent load into `raw`
 - [ ] **Phase 3** — dbt staging & marts with tests
 - [ ] **Phase 4** — Airflow DAG orchestration
